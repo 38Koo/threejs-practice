@@ -1,1 +1,1 @@
-# threejs-udemy
+# threejs-practice
