@@ -1,3 +1,28 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  display: inline-block;
+}
+
+.menu {
+  color: red;
+  position: relative;
+  right: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.link {
+  text-decoration: none;
+}
+
 .three {
   margin: 0;
   width: 100%;
@@ -5,4 +30,21 @@
   background-image: url("./images/space.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.menuMain {
+  border: 1px solid;
+  border-color: black;
+  border-radius: 100px;
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.menuItem {
+  font-size: 20px;
+  height: 30px;
+  padding: 10px;
 }

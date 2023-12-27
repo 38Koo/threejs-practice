@@ -2,10 +2,13 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./main.js",
+  entry: {
+    index: "./main.js",
+    geometry: "./geometry.js",
+  },
   output: {
     path: path.resolve(__dirname, "public"),
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
   },
   devServer: {
     static: {
